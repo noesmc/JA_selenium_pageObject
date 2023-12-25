@@ -1,5 +1,6 @@
 package store;
 
+import io.qameta.allure.Description;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import testBase.TestBase;
@@ -7,6 +8,7 @@ import testBase.TestBase;
 public class TestStore extends TestBase {
 
     @Test
+    @Description("Checking redirection to the store page")
     public void openStorePage() throws Exception {
         StorePage storePage = new StorePage(driver);
 
