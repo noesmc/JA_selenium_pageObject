@@ -6,7 +6,7 @@ import testBase.TestBase;
 
 public class TestLogin extends TestBase {
 
-    @Test
+    @Test(groups = "negative")
     public void successfulLoginTest() throws Exception {
         LoginPage loginPage = new LoginPage(driver);
 

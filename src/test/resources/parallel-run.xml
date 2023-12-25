@@ -2,10 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Run">
     <test name="Run">
-<!--        <groups>-->
-<!--            <run>-->
-<!--                <include name="negative"/>-->
-<!--            </run>-->
-<!--        </groups>-->
+        <groups>
+            <run>
+                <include name="negative"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="authorization"/>
+        </packages>
     </test>
 </suite>
