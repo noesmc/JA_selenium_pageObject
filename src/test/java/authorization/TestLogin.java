@@ -12,7 +12,7 @@ import testBase.TestBase;
 
 public class TestLogin extends TestBase {
 
-    @Test
+    @Test(groups = "smoke")
     @Description("Login with valid credentials")
     public void successfulLoginTest() throws Exception {
         LoginPage loginPage = new LoginPage(driver);

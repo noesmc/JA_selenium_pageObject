@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Run">
-    <test name="Run">
+<suite name="Smoke">
+    <test name="Smoke">
         <groups>
             <run>
-                <include name="negative"/>
+                <include name="smoke"/>
             </run>
         </groups>
         <packages>
