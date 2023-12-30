@@ -1,9 +1,9 @@
-package store;
+package by.org.ducks.store;
 
 import io.qameta.allure.Description;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import testBase.TestBase;
+import by.org.ducks.testBase.TestBase;
 
 public class TestStore extends TestBase {
 

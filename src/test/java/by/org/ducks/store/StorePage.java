@@ -1,9 +1,9 @@
-package store;
+package by.org.ducks.store;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 
-import static testBase.Locators.getLocator;
+import static by.org.ducks.testBase.Locators.getLocator;
 
 public class StorePage {
     WebDriver driver;

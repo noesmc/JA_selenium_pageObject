@@ -1,4 +1,4 @@
-package testBase;
+package by.org.ducks.testBase;
 
 import io.qameta.allure.Allure;
 import org.openqa.selenium.OutputType;
@@ -13,14 +13,11 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 
-import static testBase.TestBase.driver;
-
-
 public class ScreenshotListener implements ITestListener {
 
     public void onTestFailure(ITestResult result) {
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
-        File screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        File screenshot = ((TakesScreenshot) TestBase.driver).getScreenshotAs(OutputType.FILE);
         try {
             Allure.addAttachment(result.getMethod().getMethodName() + "_" + timeStamp , new FileInputStream(screenshot));
         } catch (FileNotFoundException e) {

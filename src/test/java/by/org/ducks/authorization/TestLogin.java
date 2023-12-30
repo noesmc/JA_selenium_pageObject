@@ -1,11 +1,11 @@
-package authorization;
+package by.org.ducks.authorization;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import testBase.TestBase;
+import by.org.ducks.testBase.TestBase;
 
 @Epic("Authorization")
 @Feature("Login")

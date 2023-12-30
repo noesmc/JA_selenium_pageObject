@@ -1,10 +1,9 @@
-package home;
+package by.org.ducks.home;
 
 import io.qameta.allure.Description;
-import io.qameta.allure.Epic;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import testBase.TestBase;
+import by.org.ducks.testBase.TestBase;
 
 public class TestHomePage extends TestBase {
 

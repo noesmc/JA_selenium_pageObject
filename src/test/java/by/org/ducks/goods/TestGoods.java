@@ -1,10 +1,10 @@
-package goods;
+package by.org.ducks.goods;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import testBase.TestBase;
+import by.org.ducks.testBase.TestBase;
 
 @Epic("Goods")
 

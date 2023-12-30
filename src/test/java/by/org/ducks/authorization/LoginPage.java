@@ -1,9 +1,9 @@
-package authorization;
+package by.org.ducks.authorization;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 
-import static testBase.Locators.getLocator;
+import static by.org.ducks.testBase.Locators.getLocator;
 
 public class LoginPage {
 

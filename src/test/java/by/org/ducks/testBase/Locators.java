@@ -1,4 +1,4 @@
-package testBase;
+package by.org.ducks.testBase;
 
 import org.openqa.selenium.By;
 import java.io.InputStream;

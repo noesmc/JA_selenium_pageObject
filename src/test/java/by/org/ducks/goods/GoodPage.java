@@ -1,9 +1,9 @@
-package goods;
+package by.org.ducks.goods;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 
-import static testBase.Locators.getLocator;
+import static by.org.ducks.testBase.Locators.getLocator;
 
 public class GoodPage {
 

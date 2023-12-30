@@ -1,4 +1,4 @@
-package testBase;
+package by.org.ducks.testBase;
 
 public enum Browser {
     CHROME,
